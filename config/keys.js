@@ -3,6 +3,6 @@
 //Và secretOrKey cho JWT và Passport
 module.exports = {
     // mongoURI:'mongodb://localhost:2x7017/TranningAttendance'
-    mongoURI:'mongodb+srv://quoccuong:cuong2110@quoccuong-id5m3.gcp.mongodb.net/test',
-    secretOrKey:'cuong2110'
+    mongoURI:process.env.mongoURI,
+    secretOrKey:process.env.secretOrKey
 };
